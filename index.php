@@ -1,6 +1,7 @@
 <?php
     session_start();
-    $conn = new mysqli("localhost", "root", "", "moznova");
+   // $conn = new mysqli("localhost", "root", "", "moznova");
+    $conn = new mysqli("147.182.184.8", "hmilato", "hmilato95HM_", "moznova");
     $msg="";
 
     if(isset($_POST['login'])){
