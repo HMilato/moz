@@ -74,9 +74,8 @@
             <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
             <!--  Core theme CSS (includes Bootstrap) -->
         <link href="agency/css/styles.css" rel="stylesheet" />    
-        <link href="css/marina.css" rel="stylesheet" />  
-      <!--  <link href="css/estilo_form.css" rel="stylesheet" />   -->    
-      
+        <link href="css/logb.css" rel="stylesheet" />  
+    
     <title>Moznova</title>
 </head>
 <body>
@@ -86,7 +85,7 @@
         include("header/header.php");
         include("inc/slider.php");
         include("login/login.php");
-       // include("login/lgform.php");
+        //include("login/lgform.php");
         include("login/form.php");
         include("inc/top_courses.php");
         include("inc/home_cat.php");      

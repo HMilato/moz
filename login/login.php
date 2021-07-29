@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary"> 
 
     <div class="container modal fade" id="mycadastro">
 
@@ -43,28 +43,30 @@
                             <div class="col-lg-6">
                                 <div class="p-5">                   
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Bem vindo</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action=" <?= $_SERVER['PHP_SELF'] ?>" method="post" >
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
+                                           <!-- <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Username">
+                                                placeholder="Username">-->
+                                                <input type="text" name="username" class="form-control form-control-user" placeholder="Username" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password">
+                                             <input type="text" name="password" class="form-control form-control-user" placeholder="Password" required>
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Remember
-                                                    Me</label>
+                                            <!--<input type="radio" name="userType" value="student" class="custom-radio" required>&nbsp;Estudante |-->
+                                                <input type="radio" name="userType" value="student" class="custom-radio" required>&nbsp;Estudante |
+                                                <!--<label class="custom-control-label" for="customCheck">&nbsp;Estudante |</label>-->
+                                                
+                                                <input type="radio" name="userType" value="admin" class="custom-radio" required>&nbsp;Admin |
+                                               <!-- <label class="custom-control-label" for="customCheck">Admin</label>-->
                                             </div>
                                         </div>
-                                        <a href="index.php" class="btn btn-primary btn-user btn-block">
-                                            Login
-                                        </a>
+                                       
+                                         <input type="submit" name="login" class="btn btn-primary btn-user btn-block" style="background-color: #3498DB">
                                         <hr>
                                        <!-- <a href="index.html" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> Login with Google
