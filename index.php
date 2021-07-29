@@ -66,21 +66,38 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> 
         <link rel="icon" type="image/png" href="favicon.ico"/>
         <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+        
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+            <!--Google fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+            <!--  Core theme CSS (includes Bootstrap) -->
+        <link href="agency/css/styles.css" rel="stylesheet" />    
+        <link href="css/marina.css" rel="stylesheet" />  
+      <!--  <link href="css/estilo_form.css" rel="stylesheet" />   -->    
+      
     <title>Moznova</title>
 </head>
 <body>
     
     <?php
+       //include("inc/nav.php");
         include("header/header.php");
         include("inc/slider.php");
         include("login/login.php");
+       // include("login/lgform.php");
         include("login/form.php");
-        include("inc/home_cat.php");
         include("inc/top_courses.php");
-         include("inc/footer.php");
+        include("inc/home_cat.php");      
+        include("inc/footer.php");
         
     ?>
-    
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS -->
+        <script src="js/scripts.js"></script>
+
+
 </body>
 </html>
