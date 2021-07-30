@@ -24,7 +24,7 @@
 
 <body class="bg-gradient-primary"> 
 
-    <div class="container modal fade" id="mycadastro">
+    <div class="container modal fade" id="mylogin">
 
         <!-- Outer Row -->
         <div class="row justify-content-center">
@@ -53,20 +53,20 @@
                                                 <input type="text" name="username" class="form-control form-control-user" placeholder="Username" required>
                                         </div>
                                         <div class="form-group">
-                                             <input type="text" name="password" class="form-control form-control-user" placeholder="Password" required>
+                                             <input type="password" name="password" class="form-control form-control-user" placeholder="Password" required>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                            <!--<input type="radio" name="userType" value="student" class="custom-radio" required>&nbsp;Estudante |-->
-                                                <input type="radio" name="userType" value="student" class="custom-radio" required>&nbsp;Estudante |
-                                                <!--<label class="custom-control-label" for="customCheck">&nbsp;Estudante |</label>-->
+                                       <!-- <div class="form-group">
+                                            <div class="custom-control custom-checkbox small ml-1 p-1">
+                                            <input type="radio" name="userType" value="student" class="custom-radio" required>&nbsp;Estudante |
+                                                <input type="radio" name="userType" value="student" class="custom-radio" required>&nbsp;&nbsp;Estudante 
+                                                <label class="custom-control-label" for="customCheck">&nbsp;Estudante |</label>
                                                 
-                                                <input type="radio" name="userType" value="admin" class="custom-radio" required>&nbsp;Admin |
-                                               <!-- <label class="custom-control-label" for="customCheck">Admin</label>-->
+                                                <input type="radio" name="userType" value="admin" class="custom-radio ml-3" required>&nbsp;&nbsp;Admin 
+                                                <label class="custom-control-label" for="customCheck">Admin</label>
                                             </div>
-                                        </div>
+                                        </div>-->
                                        
-                                         <input type="submit" name="login" class="btn btn-primary btn-user btn-block" style="background-color: #3498DB">
+                                         <input type="submit" name="login" value="Entrar" class="btn btn-primary btn-user btn-block" style="background-color: #3498DB"> 
                                         <hr>
                                        <!-- <a href="index.html" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> Login with Google
@@ -76,11 +76,11 @@
                                         </a>-->
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="#">Forgot Password?</a>
+                                    <div class="text-center ">
+                                        <a class="small" href="#" style="color:  #4285F4;">Esqueceu a Senha?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="#">Create an Account!</a>
+                                        <a class="small" href="#" style="color:  #4285F4;">Criar uma conta</a>
                                     </div>
                                 </div>
                             </div>

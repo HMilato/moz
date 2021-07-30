@@ -68,7 +68,7 @@
                     <form id="frm-login" class="form-inline my-2 my-lg-0  ">
 
       <div id="shopcart">
-        <a class="mr-sm-4" href="cart.php">  <i class="bi bi-cart4" style="font-size: 2rem; color: #4285F4"></i>0</a>
+        <a class="mr-sm-4" href="cart.php">  <i class="bi bi-cart4" style="font-size: 2rem; color: #f6c23e"></i>0</a>
       </div>    
 
     </form>

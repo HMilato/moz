@@ -8,12 +8,13 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
         //$password = sha1($password);
-        $userType = $_POST['userType'];
+       // $userType = $_POST['userType'];
        
 
-        $sql = "SELECT * FROM users WHERE username=? AND password=? AND user_type=?";
+//$sql = "SELECT * FROM users WHERE username=? AND password=? AND user_type=?";
+        $sql = "SELECT * FROM users WHERE username=? AND password=? ";
         $stmt = $conn ->prepare($sql);
-        $stmt->bind_param("sss", $username, $password, $userType);
+        $stmt->bind_param("ss", $username, $password);
         $stmt->execute();
         $result = $stmt->get_result();
         $row = $result->fetch_assoc();
@@ -86,7 +87,7 @@
         include("inc/slider.php");
         include("login/login.php");
         //include("login/lgform.php");
-        include("login/form.php");
+      //  include("login/form.php");
         include("inc/top_courses.php");
         include("inc/home_cat.php");      
         include("inc/footer.php");
