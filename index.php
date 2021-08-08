@@ -86,10 +86,11 @@
         include("header/header.php");
         include("inc/slider.php");
         include("login/login.php");
-        //include("login/lgform.php");
+        include("login/form.php");
       //  include("login/form.php");
-        include("inc/top_courses.php");
-        include("inc/home_cat.php");      
+      //  include("inc/top_courses.php");
+        include("inc/home_cat.php");  
+        include("inc/categoria.php");      
         include("inc/footer.php");
         
     ?>

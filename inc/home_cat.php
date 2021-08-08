@@ -1,172 +1,106 @@
-<div>
 
-<div class="container my-4">
-    
+
+
+         <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
   
-  <center>   <h2 class="mb-5">CATEGORIAS</h2> </center>
+  </head>
 
+    <section id="slider demo" class="pyS pt-2 " style="background-color: #fff;">
+        
+        <div class="container text-center "  >
+        
+         <h2 class="mt-1">CATEGORIAS </h2>
+           <hr> 
 
-<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+           <div class="row pt-5">
 
- 
-  <!--Slides -->
-  <div class="carousel-inner" role="listbox">
+                <div class="owl-carousel owl-theme">
 
-    <!--First slide -->
-    <div class="carousel-item active">
-                
-            <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                            <div class="card  text-center text-white bg-primary">
-                
-                                <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-briefcase-fill" style="font-size: 4rem; color: #fff"></i></h5>
-                                    <p class="card-text">Business
-                                    <p class="card-text">2
-                                </div>  
+                <!-- primeiro card commeca aqui -->
+                    <div class="item">
+                            
+                        <div class="col ">
+                            <div class="card mb-2" >
+                                <div class="cardtext-center text-white bg-primary rounded"  >
+                    
+                                    <div class="card-body ">
+                                        <h5 class="card-title"><i class="bi bi-briefcase-fill" style="font-size: 4rem; color: #fff"></i></h5>
+                                        <p class="card-text">Business
+                                        <p class="card-text">2
+                                    </div>  
+                                </div>
                             </div>
-                    </div>
-            </div>
+                        </div>
 
-              <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                            <div class="card  text-center text-white bg-primary" >
-                
-                                <div class="card-body">
-                                    <h5 class="card-title"><i class="bi bi-award-fill" style="font-size: 4rem; color: #fff"></i></h5>
-                                    <p class="card-text">Desenvolvimento Pessoal
-                                    <p class="card-text">2
-                                </div>  
+                    </div>
+
+                    <div class="item">
+                            
+                    <div class="col ">
+                            <div class="card mb-2" >
+                                <div class="cardtext-center text-white bg-primary rounded"  >
+                    
+                                    <div class="card-body ">
+                                        <h5 class="card-title"><i class="bi bi-briefcase-fill" style="font-size: 4rem; color: #fff"></i></h5>
+                                        <p class="card-text">Business
+                                        <p class="card-text">2
+                                    </div>  
+                                </div>
                             </div>
+                        </div>
+
                     </div>
-            </div>
-    
-            <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                            <div class="card  text-center text-white bg-primary" >
-                
-                                <div class="card-body">
-                                      <h5 class="card-title"><i class="bi bi-translate" style="font-size: 4rem; color: #fff"></i></h5>
-                                      <p class="card-text">Idiomas
-                                      <p class="card-text">2
-                                </div>  
+
+                    <div class="item">
+                            
+                    <div class="col" >
+                            <div class="card mb-2">
+                                <div class="card  text-center text-white bg-primary">
+                    
+                                    <div class="card-body">
+                                        <h5 class="card-title"><i class="bi bi-briefcase-fill" style="font-size: 4rem; color: #fff"></i></h5>
+                                        <p class="card-text">Business
+                                        <p class="card-text">2
+                                    </div>  
+                                </div>
                             </div>
-                    </div>
-            </div>
-
-            <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                            <div class="card  text-center text-white bg-primary" >
-                
-                                <div class="card-body">
-                                       <h5 class="card-title"><i class="bi bi-vector-pen" style="font-size: 4rem; color: #fff"></i></h5>
-                                       <p class="card-text">Graphic Design
-                                       <p class="card-text">2
-                                </div>  
-                            </div>
-                    </div>
-            </div>
-
-    </div>
- 
-    <div class="carousel-item">
-            
-            <div class="col-md-3" style="float:left">
-                <div class="card mb-2">
-                        <div class="card  text-center text-white bg-primary" > 
-                            <div class="card-body">
-                              <h5 class="card-title"><i class="bi bi-file-code" style="font-size: 4rem; color: #fff"></i></h5>
-                              <p class="card-text">Desenvolvimento Web
-                              <p class="card-text">2
-                            </div>  
                         </div>
-                </div>
-            </div>
 
-            <div class="col-md-3" style="float:left">
-                <div class="card mb-2">
-                        <div class="card  text-center text-white bg-primary" > 
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-briefcase-fill" style="font-size: 4rem; color: #fff"></i></h5>
-                                <p class="card-text">Business
-                                <p class="card-text">2
-                            </div>  
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-md-3" style="float:left">
-                <div class="card mb-2">
-                        <div class="card  text-center text-white bg-primary" > 
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-award-fill" style="font-size: 4rem; color: #fff"></i></h5>
-                                <p class="card-text">Desenvolvimento Pessoal
-                                <p class="card-text">2
-                            </div>  
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-md-3" style="float:left">
-                <div class="card mb-2">
-                        <div class="card  text-center text-white bg-primary" > 
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-translate" style="font-size: 4rem; color: #fff"></i></h5>
-                                <p class="card-text">Idiomas
-                                <p class="card-text">2
-                            </div>  
-                        </div>
-                </div>
-            </div>
-    
-        </div>
-    </div>
-    <!--Second slide -->
-
-</div>
-  <!--Slides-->
-    <center>  
-        <div class="controls-top" style="padding:20px">
-            <a class="btn-floating" href="#multi-item-example" style="padding:10px" data-slide="prev"><i class="bi bi-arrow-left-square-fill"></i></a>
-            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="bi bi-arrow-right-square-fill"></i></a>
-        </div>
-    </center> 
-
-</div>
-<!-- Carousel Wrapper -->
-
-
-<!--<section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Categorias</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4 justify-content-center">
-                        <span class="fa-stack fa-4x ">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
+
+
                 </div>
             </div>
-        </section> -->
+
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+
+        }
+    }
+})
+    </script>

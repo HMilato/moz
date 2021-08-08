@@ -75,13 +75,13 @@
                                             <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                                         </a>-->
                                     </form>
-                                    <hr>
+                                 <hr>
                                     <div class="text-center ">
                                         <a class="small" href="#" style="color:  #4285F4;">Esqueceu a Senha?</a>
                                     </div>
-                                    <div class="text-center">
+                                    <!--   <div class="text-center">
                                         <a class="small" href="#" style="color:  #4285F4;">Criar uma conta</a>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
